@@ -29,7 +29,7 @@ import com.app.dto.QuantityDto;
 @RestController
 @RequestMapping("/product")
 @Validated
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://curositee.vercel.app/")
 public class ProductController {
 	
 	@Autowired

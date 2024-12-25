@@ -14,7 +14,7 @@ import com.app.dto.ApiResponse;
 import com.app.dto.ProductDescDTO;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://curositee.vercel.app/")
 @RequestMapping("/productDetails")
 @Validated
 public class ProductDescController {

@@ -23,7 +23,7 @@ import com.app.dto.OrdersDTO;
 
 @RestController
 @RequestMapping("/orders")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://curositee.vercel.app")
 public class OrdersController {
      @Autowired
      private OrdersService orderService;

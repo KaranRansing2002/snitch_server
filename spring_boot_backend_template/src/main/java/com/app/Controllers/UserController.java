@@ -33,7 +33,7 @@ import com.app.dto.UserLoginDTO;
 @RestController
 @RequestMapping
 @Validated
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://curositee.vercel.app/")
 public class UserController {
 	
 	@Autowired
